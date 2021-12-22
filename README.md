@@ -14,6 +14,21 @@ Translate The Apache Server Documentation To the Arabic Language
 
 ### 1-1 العملاء، الخدم، الروابط 
 العناوين في عالم **الويب** تعبر بواسطة الروابط **URLs** 
-وهي مختصر لـ **Uniform Resource Locators** والتي من خلالها يتم
-تحديد نوع البروتوكل (**http**) واسم الخادم - servername (www.apache.org)
+وهي مختصر لـ **Uniform Resource Locators** 
+والتي من خلالها يتم تحديد نوع البروتوكل (Protocol)
+ (**http**) 
+ واسم الخادم - servername (www.apache.org)
 مسار-الرابط - URL-path __(كمثال: docs/current/getting-started.html)__
+وكذلك نص-الاستعلام (**Query String**) مثلا 
+(?arg=value)
+والتي تستخدم لتمرير المزيد من البيانات (المعلومات) الى الخادم.
+
+**العميل (Client)**:
+قد يكون متصفح الويب يتصل باخادم وليكن خادم HTTP اباتشي
+وباستخدام البرتوكول HTTP 
+ينشئ طلب لمصدر (resource) 
+باستخدام مسار-الرابط.
+
+مسار-الرابط URL-path : 
+لربما يمثل مجموعة من الاشياء الموجودة على الخادم، قد يكون
+ملف HTML مثلا getting-started.html 
